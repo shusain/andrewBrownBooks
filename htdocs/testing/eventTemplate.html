@@ -1,0 +1,19 @@
+<div>
+	<div class="eventHRule"></div>
+	<div class="eventLeftSide">
+		{{date}}
+	</div>
+	<div class="eventMiddle">
+		<span class="eventTitle">{{title}}</span>
+		<div ng-bind-html-unsafe="description"></div>
+		Where: {{where}}
+		Cost: {{cost}}
+	</div>
+	<div class="eventRightSide">
+		<form action="http://maps.google.com/maps" method="get" target="_blank" style="display:inline">
+		<input type="hidden" name="daddr" value="{{where}}" />
+		<input type="submit" value="Directions" class="eventButton"/><br/>
+		<input type="button" value="Attend" class="eventButton" onclick="window.location='{{url}}'"/>
+		</form><br/>
+	</div>
+</div>

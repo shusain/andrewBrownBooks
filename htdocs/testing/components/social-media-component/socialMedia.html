@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="components/social-media-component/style.css">
+<ul class="socialicons color" style="float:left">
+	<li ng-repeat="attr in attrs">
+		<a href="{{attr.link}}" class="{{attr.popularSite}}" alt="{{attr.popularSite}}" target="_blank" ng-mouseover="updateHoverText(attr)">{{attr.popularSite}}</a>
+	</li>
+</ul>
+<span ng-transclude style="float:left;display:inline-block;padding-top:10px;"></span>

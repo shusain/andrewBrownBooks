@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Showing browser information</title>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+</head>
+<body>
+	<div id="clientRes">
+	</div>
+
+	<div id="userAgent">
+		<h1>User Agent</h1>
+	</div>
+
+	<div id="jqueryBrowser">
+		<h1>jQuery Browser Info</h1>
+	</div>
+
+	<div id="jquerySupport">
+		<h1>jQuery Support Info</h1>
+	</div>
+	<script type="text/javascript">
+		$("<div>Raw User Agent (UA): " + navigator.userAgent + "</div>")
+		.appendTo($("#userAgent"));
+
+
+		var resizeTimeoutId;
+
+		function window_resize(e) { 
+		     window.clearTimeout(resizeTimeoutId); 
+		     resizeTimeoutId = window.setTimeout('updateWidthHeight();', 100); 
+		}
+		
+		window.onresize = window_resize;
+
+		function updateWidthHeight()
+		{
+			$("#clientRes").empty();
+			$("<h1>Client Resolution</h1>").
+			appendTo($("#clientRes"));
+			$("<div>Width: " + document.documentElement.clientWidth + "</div>")
+			.appendTo($("#clientRes"));
+			$("<div>Height: " + document.documentElement.clientHeight + "</div>")
+			.appendTo($("#clientRes"));			
+		}
+		updateWidthHeight();
+
+		jQuery.each(jQuery.browser, function(i, val) {
+		  $("<div>" + i + " : <span>" + val + "</span>")
+		  .appendTo( $("#jqueryBrowser") );
+		});
+		jQuery.each(jQuery.support, function(i, val) {
+		  $("<div>" + i + " : <span>" + val + "</span>")
+		  .appendTo( $("#jquerySupport") );
+		});
+	</script>
+</body>
+</html>
