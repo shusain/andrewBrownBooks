@@ -90,7 +90,7 @@ var socialMediaModule = angular.module('socialMedia', []).directive('socialMedia
 	};
 }]).controller('socMedController', function($scope)
 {
-    $scope.hoverText="";
+    $scope.hoverText="testing";
     $scope.updateHoverText = function(item)
     {
         console.log(item.popularSite);

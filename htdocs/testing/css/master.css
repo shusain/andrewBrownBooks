@@ -63,6 +63,7 @@ footer
 nav
 {
 	padding-left: 70px;
+	z-index: 500;
 }
 nav li
 {
