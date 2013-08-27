@@ -12,18 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "htdocs/testing/components/social-media-component/socialMedia.html",
-			"settings":
-			{
-				"buffer_size": 431,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "htdocs/testing/contact.html",
 			"settings":
 			{
-				"buffer_size": 909,
+				"buffer_size": 1186,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +23,7 @@
 			"file": "htdocs/testing/index.html",
 			"settings":
 			{
-				"buffer_size": 2266,
+				"buffer_size": 2513,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,53 +31,23 @@
 			"file": "htdocs/testing/aboutUs.html",
 			"settings":
 			{
-				"buffer_size": 3553,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "htdocs/testing/checkBrowser.html",
-			"settings":
-			{
-				"buffer_size": 1407,
+				"buffer_size": 3803,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "",
-			"file": "htdocs/testing/header.html",
-			"file_size": 1849,
-			"file_write_time": 130204411360000000,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "htdocs/testing/components/social-media-component/style.css",
-			"settings":
-			{
-				"buffer_size": 9590,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<html>\n<head>\n	<?php include('htmlHead.html');?>\n</head>\n<body>\n	<div id=\"outerContainer\">\n		<div style=\"height:20px\">\n		</div>\n		<?php include('header.html');?>\n		<div \n		  id=\"contentRegion\" \n		  style=\"width:100%;\">\n			<article class=\"contentContainer\">\n			  <h1>Order Book</h1>\n				<center>\n					<div>\n						<img src=\"images/frontBookCoverSmall.jpg\" \n						  alt=\"Overcome Adversitiy - Your Dreams Matter\" \n						  style=\"max-width:100%\"/>\n						<br/>\n\n						<form action=\"https://www.paypal.com/cgi-bin/webscr\" \n						  method=\"post\" \n						  target=\"_top\">\n						<input type=\"hidden\" \n							name=\"cmd\" \n							value=\"_s-xclick\">\n						<input type=\"hidden\" \n							name=\"hosted_button_id\" \n							value=\"XJTUQP8TUK3QS\">\n						<input style=\"max-width:100%\" \n							type=\"image\" \n							src=\"images/buyNowBig.png\" \n							border=\"0\" \n							name=\"submit\" \n							alt=\"PayPal - The safer, easier way to pay online!\">\n						<img alt=\"\" border=\"0\" src=\"images/buyNowBig.png\" width=\"1\" height=\"1\">\n						</form>\n						<br/>\n						<div class=\"divider\"></div>\n						<br/>\n						<h2>Thank you.  Your new journey starts today.</h2>\n						\n					</div>\n				</center>\n			<div class=\"clear\">&nbsp;</div>\n				<!--\n				Cancel URL is http://www.andrewbrownbooks.com/cancel.html\n				-->\n				<!--\n				Complete URL is http://www.andrewbrownbooks.com/thankyou.html\n				Ask client about feedback on site.\n				-->\n			</article>\n			<div class=\"clear\">&nbsp;</div>\n		</div>\n		<?php include('footer.html');?>\n	</div>\n</body>\n</html>",
 			"file": "htdocs/testing/shop.html",
-			"file_size": 1427,
-			"file_write_time": 130204411360000000,
 			"settings":
 			{
-				"buffer_size": 1512,
-				"line_ending": "Unix"
+				"buffer_size": 3409,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "htdocs/testing/htmlHead.html",
 			"settings":
 			{
-				"buffer_size": 1658,
+				"buffer_size": 1657,
 				"line_ending": "Unix"
 			}
 		},
@@ -93,15 +55,23 @@
 			"file": "htdocs/testing/home.html",
 			"settings":
 			{
-				"buffer_size": 3565,
-				"line_ending": "Unix"
+				"buffer_size": 1420,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "htdocs/testing/press.html",
 			"settings":
 			{
-				"buffer_size": 4052,
+				"buffer_size": 4549,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "htdocs/testing/css/master.css",
+			"settings":
+			{
+				"buffer_size": 7262,
 				"line_ending": "Unix"
 			}
 		},
@@ -109,9 +79,8 @@
 			"file": "htdocs/testing/components/mainApp.js",
 			"settings":
 			{
-				"buffer_size": 387,
-				"line_ending": "Windows",
-				"name": "angular.module(\"myApp\", []);"
+				"buffer_size": 400,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -142,6 +111,12 @@
 	},
 	"file_history":
 	[
+		"/E/Shaun/AndrewBrown/htdocs/testing/components/social-media-component/socialMedia.html",
+		"/E/Shaun/AndrewBrown/htdocs/testing/components/mainApp.js",
+		"/E/Shaun/AndrewBrown/htdocs/testing/footer.html",
+		"/E/Shaun/AndrewBrown/htdocs/testing/header.html",
+		"/E/Shaun/AndrewBrown/htdocs/testing/components/social-media-component/socialMedia.js",
+		"/E/Shaun/AndrewBrown/htdocs/testing/components/social-media-component/style.css",
 		"/E/Shaun/AndrewBrown/htdocs/testing/resource.html",
 		"/E/Shaun/AndrewBrown/htdocs/testing/css/master.css",
 		"/E/Shaun/AndrewBrown/htdocs/index.php",
@@ -152,13 +127,14 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -166,6 +142,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"updateHoverText",
+			"socMedController",
+			"socialMediaController",
+			"ng-app=myApp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -183,24 +163,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "htdocs/testing/components/social-media-component/socialMedia.html",
+					"file": "htdocs/testing/contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 431,
+						"buffer_size": 1186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								419,
-								419
+								862,
+								862
 							]
 						],
 						"settings":
@@ -208,29 +188,88 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "htdocs/testing/contact.html",
+					"file": "htdocs/testing/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 909,
+						"buffer_size": 2513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								704,
-								704
+								2351,
+								2351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "htdocs/testing/aboutUs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3779,
+								3779
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "htdocs/testing/shop.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
 							]
 						],
 						"settings":
@@ -248,47 +287,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "htdocs/testing/index.html",
+					"buffer": 4,
+					"file": "htdocs/testing/htmlHead.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2266,
+						"buffer_size": 1657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1899,
-								1899
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 684.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "htdocs/testing/aboutUs.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3553,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3480,
-								3480
+								1657,
+								1657
 							]
 						],
 						"settings":
@@ -296,36 +308,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 684.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "htdocs/testing/checkBrowser.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -335,19 +318,19 @@
 				},
 				{
 					"buffer": 5,
-					"file": "htdocs/testing/header.html",
+					"file": "htdocs/testing/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								552,
+								552
 							]
 						],
 						"settings":
@@ -355,7 +338,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -366,19 +349,19 @@
 				},
 				{
 					"buffer": 6,
-					"file": "htdocs/testing/components/social-media-component/style.css",
+					"file": "htdocs/testing/press.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9590,
+						"buffer_size": 4549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7503,
-								7503
+								4533,
+								4533
 							]
 						],
 						"settings":
@@ -386,157 +369,62 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2346.0,
+						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "htdocs/testing/shop.html",
+					"file": "htdocs/testing/css/master.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1512,
+						"buffer_size": 7262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1088,
-								1088
+								730,
+								730
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 741.0,
+						"translation.y": 489.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "htdocs/testing/htmlHead.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1658,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1053,
-								891
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "htdocs/testing/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1415,
-								1415
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "htdocs/testing/press.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4052,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3810,
-								3810
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 697.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
 					"file": "htdocs/testing/components/mainApp.js",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								28,
+								28
 							]
 						],
 						"settings":
 						{
-							"auto_name": "angular.module(\"myApp\", []);",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -595,6 +483,22 @@
 		"selected_items":
 		[
 			[
+				"soci",
+				"testing\\components\\social-media-component\\socialMedia.html"
+			],
+			[
+				"soc",
+				"testing\\components\\social-media-component\\socialMedia.js"
+			],
+			[
+				"inde",
+				"testing\\index.html"
+			],
+			[
+				"maina",
+				"testing\\components\\mainApp.js"
+			],
+			[
 				"main",
 				"testing\\components\\mainApp.js"
 			],
@@ -605,10 +509,6 @@
 			[
 				"art",
 				"testing\\article.php"
-			],
-			[
-				"inde",
-				"testing/index.php"
 			],
 			[
 				"master",
@@ -637,10 +537,6 @@
 			[
 				"header",
 				"testing/header.html"
-			],
-			[
-				"soci",
-				"testing/components/social-media-component/style.css"
 			],
 			[
 				"mast",

@@ -1,0 +1,43 @@
+<html ng-app=myApp>
+<head>
+	<?php include('htmlHead.html');?>
+
+</head>
+<body>
+	<div id="outerContainer">
+		<div style="height:20px"></div>
+		<?php include('header.html');?>
+		<div id="contentRegion">
+			<article ng-app="socialMedia" ng-controller="socMedController">
+				<div title="Social Media" class="contentContainer">
+					<h1>Social Media</h1>
+					Get connected! <br/><br/>
+					
+					<x-social-media-links
+						youtube="http://www.youtube.com/user/BarrierBreaker101"
+						twitter="https://twitter.com/LT_Break_Thru"
+						facebook="https://www.facebook.com/ChampionCoach">
+					</x-social-media-links>
+					<div class="divider"></div>
+					<center>
+					<br/>
+						<h1>Join the leader's community!</h1>
+						<br/>
+						
+						<a
+						href="https://plus.google.com/u/0/communities/100838118611393077227">
+						BreakThru=> Cafe on Google+
+						</a>
+
+					</x-social-media-links>
+					</center>
+					<div class="clear"></div>
+
+				</div>
+			</article>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+    <script type="text/javascript" src="components/social-media-component/socialMedia.js"></script>
+</body>
+</html>
